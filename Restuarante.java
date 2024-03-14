@@ -1,4 +1,4 @@
-package ejercicio1_restaurante;
+package restaurante;
 
 import java.util.ArrayList;
 
@@ -7,9 +7,22 @@ public class Restuarante {
 	private String nombre;
 	private ArrayList<Producto> carta = new ArrayList<>();
 	private ArrayList<Encargo> encargos = new ArrayList<>();
+	private int numeroclientes;
 	
 	
 	
+	
+	
+	public int getNumeroclientes() {
+		return numeroclientes;
+	}
+
+
+	public void setNumeroclientes(int numeroclientes) {
+		this.numeroclientes = numeroclientes;
+	}
+
+
 	public String getNombre() {
 		return nombre;
 	}

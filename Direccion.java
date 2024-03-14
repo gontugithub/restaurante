@@ -1,4 +1,4 @@
-package ejercicio1_restaurante;
+package restaurante;
 
 public class Direccion {
 	
@@ -15,6 +15,52 @@ public class Direccion {
 		this.piso = piso;
 		this.letra = letra;
 	}
+
+	public Direccion() {
+		
+	}
+
+	public String getLocalidad() {
+		return localidad;
+	}
+
+	public void setLocalidad(String localidad) {
+		this.localidad = localidad;
+	}
+
+	public String getCalle() {
+		return calle;
+	}
+
+	public void setCalle(String calle) {
+		this.calle = calle;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
+	public int getPiso() {
+		return piso;
+	}
+
+	public void setPiso(int piso) {
+		this.piso = piso;
+	}
+
+	public char getLetra() {
+		return letra;
+	}
+
+	public void setLetra(char letra) {
+		this.letra = letra;
+	}
+	
+	
 	
 	
 	

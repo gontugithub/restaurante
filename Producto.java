@@ -1,4 +1,4 @@
-package ejercicio1_restaurante;
+package restaurante;
 
 public class Producto {
 	
