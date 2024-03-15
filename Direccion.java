@@ -59,7 +59,8 @@ public class Direccion {
 	public void setLetra(char letra) {
 		this.letra = letra;
 	}
-	
+
+
 	
 	
 	
